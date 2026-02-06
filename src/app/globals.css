@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+.card {
+  @apply bg-zinc-950 border border-zinc-800 rounded-xl p-6 text-2xl font-semibold;
+}
+.card span {
+  @apply block text-sm text-zinc-400 mt-1;
+}
